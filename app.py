@@ -46,8 +46,8 @@ def update(id):
             db.session.commit()
             return redirect('/index')
         except:
-            return ""
-        else:
+            return "Oh, this it is a problem with update,sorry... "
+        else: #bug - no render template
             return render_template("index.html", wish_update=wish_update)
 
 app.run()
