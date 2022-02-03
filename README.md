@@ -12,8 +12,10 @@ A simple wishlist project using the MVC architecture model with Python and Flask
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)&nbsp;
 ![Jinja2](https://img.shields.io/badge/-Jinja2-05122A?style=flat&logo=jinja)&nbsp;
+![SQLITE](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=CSS3)&nbsp;
+
 
 
 ### About :book:
@@ -24,7 +26,7 @@ Clone this repo:
 ```
 git clone https://github.com/upALX/Simple-API.git
 ```
-**Install the "Tech Stack"** (If you have all the "Tech Stack" installed, ignore this precess):
+**Install the "Tech Stack"** (If you have all the "Tech Stack" installed, skip this process):
 ```
 pip install Flask
 pip install Jinja2
