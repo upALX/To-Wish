@@ -44,10 +44,9 @@ def update(id):
         wish_update.item = request.form['wish-maked']
         try:
             db.session.commit()
-            return redirect('/index')
+            return redirect('/')
         except:
             return "Oh, this it is a problem with update,sorry... "
         else: #bug - no render template
             return render_template("index.html", wish_update=wish_update)
 
-app.run()

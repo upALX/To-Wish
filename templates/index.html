@@ -1,16 +1,18 @@
 {%extends 'base.html'%}
 {%block title%}{%endblock%}
 {%block content%}
-<h1>Welcome to "To wish" </h1>
+<h1><strong> Welcome to "To wish"</strong></h1>
     <div class="form-db">
-        <form action="/" method="post">
-            <input type="text" placeholder="Write your wish..." name="wish-maked"/>
-            <input type="submit" value="Make wish" id="id-button-submit"/>
-        </form>
         <div class="wish">
-            {% for wish in wishes %}
-            <h3>{{wish.item}}</h3>
-            {%endfor%}
+            <form action="/" method="post" id="form-index">
+                <input type="text" placeholder="Write your wish..." name="wish-maked" class="inp-make-wish"/>
+                <input type="submit" value="Make wish" id="id-button-submit" class="sub-button"/>
+            </form>
+            <div class="for-wishes-index"></div>
+                {% for wish in wishes %}
+                <h3>{{wish.item}}</h3>
+                {%endfor%}
+            </div>
         </div>
     </div>
 {%endblock%}
