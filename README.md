@@ -29,7 +29,6 @@ git clone https://github.com/upALX/Simple-API.git
 **Install the "Tech Stack"** (If you have all the "Tech Stack" installed, skip this process):
 ```
 pip install Flask
-pip install Jinja2
 pip install SQLAlchemy
 ```
 **Verify your dependencies:**
