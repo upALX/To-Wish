@@ -1,17 +1,10 @@
 {%extends 'base.html'%}
-{%block title%}{{title}}{%endblock%}
+{%block title%}Wish update{%endblock%}
 {%block content%}
 <div class="form">
-    <form action="/update" method="post">
-        <input type="text" placeholder="update_item"/>
-        <input type="submit" value="Update your wish" />
+    <form action="/update/{{wish_update.id}}" method="POST">
+        <input type="text" placeholder="Write the update wish..." name="name_update" value="{{wish_update.name}}"/>
+        <input type="submit" value="Update wish" class="button-submit-update"/>
     </form>
-    <div class="wish">
-        {%for wish in wishes%}
-            <h3>
-                {{wish.item}} <a href="/update/{{wish.id}}" class="btn btn-outline-primary">Update</a>
-            </h3>
-        {%endfor%}
-    </div>
 </div>
 {%endblock%}

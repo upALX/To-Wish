@@ -8,9 +8,12 @@
                 <input type="text" placeholder="Write your wish..." name="wish-maked" class="inp-make-wish"/>
                 <input type="submit" value="Make wish" id="id-button-submit" class="sub-button"/>
             </form>
-            <div class="for-wishes-index"></div>
+            <div class="for-wishes-index">
                 {% for wish in wishes %}
-                <h3>{{wish.item}}</h3>
+                <h3>{{wish.item}}
+                    <a href="update/{{wish.id}}" class="btn btn-info btn-sm">Update
+                    </a>
+                </h3>
                 {%endfor%}
             </div>
         </div>
