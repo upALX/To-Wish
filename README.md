@@ -31,6 +31,7 @@ pip install SQLAlchemy
 ```
 **Verify your dependencies:**
 ```
+
 pip freeze
 ```
 **If you installed all dependencies, run the app:**
