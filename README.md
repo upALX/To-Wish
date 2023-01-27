@@ -48,4 +48,5 @@ flask run app.py
 ### License :unlock:
 This project is under the [MIT license](https://github.com/upALX/Simple-API/blob/1bd0e539a673e684ebe9977cd72c709acbd65aa3/LICENSE).
 
+
 *Developed with :purple_heart: by Alexandre*
