@@ -51,4 +51,3 @@ This project is under the [MIT license](https://github.com/upALX/Simple-API/blob
 
 
 *Developed with :purple_heart: by Alexandre*
-
