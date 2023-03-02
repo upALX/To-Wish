@@ -20,7 +20,6 @@ A simple wishlist project using the MVC architecture model with Python and Flask
 ### About :book:
 The "to wish" is a simple wish list created in Python using Flask for the SSR. The purpose of this app is to simplify the way of creating wishes, leaving them in a to-do list format, simple and quick to use. The overall design uses the MVC architectural pattern.
 
-
 ### How to use :open_mouth:
 Clone this repo:
 ```
