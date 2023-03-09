@@ -6,6 +6,7 @@ A simple wishlist project using the MVC architecture model with Python and Flask
 
 **:construction: This project is currently under development :construction:**
 
+
 ---
 
 ## Tech stack used
