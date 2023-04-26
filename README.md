@@ -41,7 +41,6 @@ and
 flask run app.py 
 ```
 
-
 **If you have any problems with this app or have an idea that contributes, open a [issue](https://github.com/upALX/To-Wish/issues), [pull request](https://github.com/upALX/To-Wish/pulls) or find me on [Linkedin](https://www.linkedin.com/in/upalx/):D**
 
 
