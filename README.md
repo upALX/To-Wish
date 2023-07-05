@@ -4,6 +4,7 @@
 
 A simple wishlist project using the MVC architecture model with Python and Flask as SSR.
 
+
 **:construction: This project is currently under development :construction:**
 
 ---
