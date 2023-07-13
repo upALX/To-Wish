@@ -9,6 +9,7 @@ A simple wishlist project using the MVC architecture model with Python and Flask
 
 ---
 
+
 ## Tech stack used
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)&nbsp;
